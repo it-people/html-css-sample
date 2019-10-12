@@ -4,6 +4,15 @@
   <meta charset="UTF-8">
   <title>Калькулятор</title>
   <style type="text/css">
+    html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+    body {
+      margin-left: auto;
+    }
     .tblCalc{
     border:1px solid gray;
     margin:0;
@@ -12,18 +21,20 @@
     text-align:center;
   }
   .tblCalc input{
-    border:1px solid gray;
-    width:30px;
-    margin:4px;
+    border:3px solid black;
+    width:70%;
+    background-color:white;
+    margin:0.5rem;
+    padding:0.3rem;
   }
     #btnWide{
-    width:80px;
+    width:180px;
   }
   #editWide{
-    width:250px;
+    width:450px;
   }
   td {
-  background-color:#999;
+  background-color:lightblue;
   }
   }
 </style>
